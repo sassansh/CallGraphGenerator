@@ -1,0 +1,133 @@
+{
+  "program": "BankingApp",
+  "callGraph": {
+      "class": "Main",
+      "methodName": "main",
+      "params": [
+          {
+              "type": "String[]",
+              "name": "args"
+          }
+      ],
+      "time": 250,
+      "calls": [
+          {
+              "class": "Bank",
+              "methodName": "showMenu",
+              "params": [],
+              "time": 225,
+              "calls": [
+                  {
+                      "class": "Bank",
+                      "methodName": "createAccount",
+                      "params": [
+                          {
+                              "type": "String",
+                              "name": "customerName"
+                          }
+                      ],
+                      "time": 25,
+                      "calls": [
+                          {
+                              "class": "BankAccount",
+                              "methodName": "getCustomerID",
+                              "params": [],
+                              "time": 10,
+                              "calls": []
+                          }
+                      ]
+                  },
+                  {
+                      "class": "Bank",
+                      "methodName": "logIn",
+                      "params": [
+                          {
+                              "type": "int",
+                              "name": "customerID"
+                          }
+                      ],
+                      "time": 150,
+                      "calls": []
+                  },
+                  {
+                      "class": "Bank",
+                      "methodName": "logIn",
+                      "params": [
+                          {
+                              "type": "int",
+                              "name": "customerID"
+                          }
+                      ],
+                      "time": 1,
+                      "calls": []
+                  },
+                  {
+                      "class": "Bank",
+                      "methodName": "showAccountMenu",
+                      "params": [
+                          {
+                              "type": "BankAccount",
+                              "name": "userAcc"
+                          }
+                      ],
+                      "time": 201,
+                      "calls": [
+                          {
+                              "class": "BankAccount",
+                              "methodName": "getCustomerName",
+                              "params": [],
+                              "time": 200,
+                              "calls": []
+                          },
+                          {
+                              "class": "BankAccount",
+                              "methodName": "getCustomerName",
+                              "params": [],
+                              "time": 207,
+                              "calls": []
+                          },
+                          {
+                              "class": "BankAccount",
+                              "methodName": "getCustomerName",
+                              "params": [],
+                              "time": 403,
+                              "calls": []
+                          },
+                          {
+                              "class": "BankAccount",
+                              "methodName": "deposit",
+                              "params": [
+                                  {
+                                      "type": "int",
+                                      "name": "depositAmt"
+                                  }
+                              ],
+                              "time": 10,
+                              "calls": []
+                          },
+                          {
+                              "class": "BankAccount",
+                              "methodName": "withdraw",
+                              "params": [
+                                  {
+                                      "type": "int",
+                                      "name": "withdrawAmt"
+                                  }
+                              ],
+                              "time": 10,
+                              "calls": []
+                          },
+                          {
+                              "class": "BankAccount",
+                              "methodName": "getBalance",
+                              "params": [],
+                              "time": 10,
+                              "calls": []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+}

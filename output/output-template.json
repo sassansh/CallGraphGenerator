@@ -1,0 +1,34 @@
+{
+  "program": "BankingApp",
+  "callGraph": {
+    "class": "class_name_1",
+    "methodName": "method_name_1",
+    "params": [
+      {
+        "type": "String",
+        "name": "param_name_1"
+      },
+      {
+        "type": "int",
+        "name": "param_name_2"
+      }
+    ],
+    "time": 100,
+    "calls": [
+      {
+        "class": "class_name_2",
+        "methodName": "method_name_2",
+        "params": [],
+        "time": 25,
+        "calls": []
+      },
+      {
+        "class": "class_name_2",
+        "methodName": "method_name_3",
+        "params": [],
+        "time": 50,
+        "calls": []
+      }
+    ]
+  }
+}

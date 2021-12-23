@@ -1,0 +1,9 @@
+INFO: Program: ExampleApp
+INFO: s: main [Main,(String[])]
+INFO: s: function1 [Class1,()]
+INFO: e: function1 [210]
+INFO: s: function2 [Class1,()]
+INFO: s: function3 [Class2,()]
+INFO: e: function3 [10]
+INFO: e: function2 [10]
+INFO: e: main [120]
